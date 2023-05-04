@@ -18,8 +18,10 @@ const DRAG_AND_DROP = () => {
         evt.preventDefault();
     };
 
-    const drag_enter = function(){
-        this.classList.add('hovered')
+    const drag_enter = function(evt){
+        evt.preventDefault();
+        this.classList.add('hovered');
+
     };
 
     const drag_leave = function(){

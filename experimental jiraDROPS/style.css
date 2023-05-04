@@ -89,5 +89,8 @@ body {
 }
 
 .hovered {
+    background: url("eto-dlja-menja.jpg");
+    background-position: center;
+    background-size: contain;
     background-color: var(--hovered-color);
 }
